@@ -28,6 +28,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func sendMailTouchUpInside(sender: UIButton) {
+        //Comment
         messageLabel.hidden = false
         messageLabel.textColor = UIColor.redColor()
         messageLabel.text = messageTextField.text
